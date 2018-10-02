@@ -35,3 +35,5 @@ Advantages of using APIM:
 Step1 : Setup the database. Perform the instructions mentioned in the Database_Setup_Instructions.md file in the Database folder
 
 Step2 : Setup the LogicApp. 
+
+Step3 : Setup the Azure Function. Perform the  instructions mentioned in the AzureFunction_Setup_Instructions.md file in the 'Azure Function' folder

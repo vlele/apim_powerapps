@@ -37,3 +37,5 @@ Step1 : Setup the database. Perform the instructions mentioned in the Database_S
 Step2 : Setup the LogicApp. 
 
 Step3 : Setup the Azure Function. Perform the  instructions mentioned in the AzureFunction_Setup_Instructions.md file in the 'Azure Function' folder
+
+Step4 : Setup the Azure Api App. Perform the  instructions mentioned in the AzureApiApp_Setup_Instructions.md file in the 'Azure Api App' folder

@@ -30,6 +30,10 @@ Advantages of using APIM:
 
 
 
+![Architecture Diagram](APIM-Demo.PNG)
+
+
+
 # Steps to Replicate the Demo
 
 Step1 : Setup the database. Perform the instructions mentioned in the Database_Setup_Instructions.md file in the Database folder

@@ -38,8 +38,16 @@ Advantages of using APIM:
 
 Step1 : Setup the database. Perform the instructions mentioned in the Database_Setup_Instructions.md file in the Database folder
 
-Step2 : Setup the LogicApp. 
+Step2 : Create an APIM instance in the Azure Portal  (https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service-instance)
+		Installing an Azure APIM instance takes around 30 minutes of time. While this is being setup, we could continue with Steps 3, 4 and 5
+		
+Step3 : Setup the LogicApp. Perform the instuctions mentioned in the AzureLogicApp_Documentation.docx file in the 'Azure Logic App' folder
 
-Step3 : Setup the Azure Function. Perform the  instructions mentioned in the AzureFunction_Setup_Instructions.md file in the 'Azure Function' folder
+Step4 : Setup the Azure Function. Perform the  instructions mentioned in the AzureFunction_Setup_Instructions.md file in the 'Azure Function' folder
 
-Step4 : Setup the Azure Api App. Perform the  instructions mentioned in the AzureApiApp_Setup_Instructions.md file in the 'Azure Api App' folder
+Step5 : Setup the Azure Api App. Perform the  instructions mentioned in the AzureApiApp_Setup_Instructions.md file in the 'Azure Api App' folder
+
+Step6 : Enable OAuth 2.0 with AAD for the APIM instance created in Step2 (https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
+        Performing this will involve having permissions to register applications in the Azure Active Directory(AAD)
+
+Step7 : Once the OAuth 2.0 AAD integration is complete, test the same from the Developer portal in the APIM instance

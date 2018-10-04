@@ -59,4 +59,5 @@ Step8 : Adding the different API's(Logic App, Azure Function and API App) in API
 Step9 : Test the functionalities of individual App from the APIM instance or APIM developer portal
 
 Step10: As a final step, we would integrate the APIM instance to be integrated with PowerApps.
+	Follow the instructions in the APIM_Integration_with_PowerApps.docx file
 		Test the calls made to the APIM from the powerapps.

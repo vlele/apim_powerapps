@@ -50,4 +50,13 @@ Step5 : Setup the Azure Api App. Perform the  instructions mentioned in the Azur
 Step6 : Enable OAuth 2.0 with AAD for the APIM instance created in Step2 (https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
         Performing this will involve having permissions to register applications in the Azure Active Directory(AAD)
 
-Step7 : Once the OAuth 2.0 AAD integration is complete, test the same from the Developer portal in the APIM instance
+Step7 : Once the OAuth 2.0 AAD integration is complete, test the same from the Developer portal in the APIM instance (https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
+
+Step8 : Adding the different API's(Logic App, Azure Function and API App) in APIM instance.
+		All earlier steps (Step1-7) must be complete before performing this step.
+		Follow the instructions in Adding API's to APIM.docx' for completing this step
+
+Step9 : Test the functionalities of individual App from the APIM instance or APIM developer portal
+
+Step10: As a final step, we would integrate the APIM instance to be integrated with PowerApps.
+		Test the calls made to the APIM from the powerapps.

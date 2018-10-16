@@ -7,7 +7,7 @@ This was chosen as an example API to demonstrate how APIM could integrate with v
 
 a)  Navigate to Azure portal and create a new API App hosted in App Service Plan.
 b)  Unzip/uncompress the SoapWebAPI.rar file which was provided as part of the 'Azure Api App' folder
-c)  Now open the .sln file into Visual Studio and modify the connection string in web.config file.
+c)  Now open the .sln file into Visual Studio and modify the connection string in web.config file present inside 'Views' folder.
     The myconnectionstring property in the web.config is the one which needs to be modified
 d)  Once the connection string is modified, build the code
 e)  Now publish this solution to the API app created as step 1.

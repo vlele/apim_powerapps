@@ -1,0 +1,12 @@
+﻿{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Dapper":"1.42.0",
+        "System.Data.SqlClient":"4.1.0",
+        "Microsoft.WindowsAzure.ConfigurationManager":"3.2.1"
+      }
+    }
+   }
+} 
+ 
